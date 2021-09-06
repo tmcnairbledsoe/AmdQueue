@@ -1,0 +1,33 @@
+1630947062300	geckodriver	INFO	Listening on 127.0.0.1:49177
+1630947119728	geckodriver	INFO	Listening on 127.0.0.1:56044
+1630947155236	geckodriver	INFO	Listening on 127.0.0.1:56065
+1630947201953	geckodriver	INFO	Listening on 127.0.0.1:56088
+1630947205035	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\tmcna\\AppData\\Local\\Temp\\rust_mozprofileDnQyDt"
+1630947205572	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tmcna\\AppData\\Local\\Temp\\rust_mozprofileDnQyDt\\search.json.mozlz4", (void 0)))
+1630947207438	Marionette	INFO	Listening on port 56097
+1630947207746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630947212091	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MDCJ74D, line 356: unreachable code after return statement
+JavaScript error: https://groceries.asda.com/service-worker.js, line 1: NetworkError: WorkerGlobalScope.importScripts: Failed to load worker script at ./workbox-63861dda.js (nsresult = 0x80530013)
+1630947230236	Marionette	INFO	Stopped listening on port 56097
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630947241923	geckodriver	INFO	Listening on 127.0.0.1:57716
+1630947244995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\tmcna\\AppData\\Local\\Temp\\rust_mozprofiler9L74g"
+1630947245243	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tmcna\\AppData\\Local\\Temp\\rust_mozprofiler9L74g\\search.json.mozlz4", (void 0)))
+1630947247338	Marionette	INFO	Listening on port 57725
+1630947247673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630947248015	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MDCJ74D, line 356: unreachable code after return statement
+JavaScript error: https://groceries.asda.com/service-worker.js, line 1: NetworkError: WorkerGlobalScope.importScripts: Failed to load worker script at ./workbox-63861dda.js (nsresult = 0x80530013)
+1630947260714	Marionette	INFO	Stopped listening on port 57725
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
